@@ -15,6 +15,35 @@ nav {
     padding: 0%;
 }
 
+.section {
+    background: rgb(224, 237, 249);
+    max-width: 70%;
+    border-radius: 10px;
+    margin: auto;
+  text-align: center;
+  min-height: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#bolder {
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.section p {
+    width: 60%;
+    margin: auto;
+}
+
+#bottom {
+    padding-bottom: 3%;
+}
+
+.section i {
+margin-bottom: 3%;
+margin-top: 3%;
+}
 
 body {
     overflow-x: hidden;
@@ -119,6 +148,14 @@ h6 {
 }
 
 @media screen and (max-width: 600px) {
+    #first, #second, #third {
+       text-align: center;
+    }
+
+    .section {
+        max-width: 85%;
+    }
+
     .list {
         display: flex;
         flex-direction: column;
@@ -168,7 +205,6 @@ h6 {
     width: 100%;
     margin-bottom: 5%;
 }
-
 
 .list {
     display: flex;
