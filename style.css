@@ -169,6 +169,44 @@ li {
     font-size: 1.15rem;
 }
 
+#button:hover {
+background: blue;
+}
+
+#btn:hover {
+    background: blue;
+}
+
+#btn {
+    font-size: 1rem;
+}
+
+input[type="button"]:hover {
+ cursor: pointer;
+}
+
+.quote-section p {
+font-size: 1.5rem;
+width: 55%;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: auto;
+font-weight: 700;
+margin-bottom: .5em;
+}
+
+.quote-section span {
+    color: #006AFF;
+    width: 30%;
+    margin: auto;
+    margin-bottom: .35rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
  .free >* {
     margin-bottom: 5%;
 }
@@ -185,6 +223,16 @@ li {
 
 #transaction {
     font-size: 20px;
+}
+
+.capterra p{
+font-weight: 200;
+font-size: .8rem;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: auto;
+margin-bottom: 1em;
 }
 
 @media screen and (max-width: 820px) {
@@ -251,6 +299,17 @@ li {
 }
 
 @media screen and (max-width: 600px) {
+    .quote-section p {
+        font-size: 1rem;
+        width: 80%;
+        margin-top: 2em;
+    }
+
+    .capterra p {
+       margin-top: .5rem;
+       font-size: .8rem
+    }
+
     #button {
         width: 40%;
     }
