@@ -278,11 +278,67 @@ margin-bottom: 1em;
     margin: 3%;
 }
 
+.big {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
 
 .grid li {
     margin-bottom: 2%;
     width: 70%;
 }
+
+.container {
+display: flex;
+width: 100vw;
+justify-content: center;
+margin: auto;
+align-items: center;
+}
+
+.container .container-p {
+    max-width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin: 2% auto;
+    display: block;
+ }
+
+.col-1 {
+    width: 90%;
+    margin-top: 0%;
+ }
+
+
+.col-2 {
+    width: 90%;
+}
+
+#auto {
+    width: 70%;
+    height: auto;
+   display: block;
+   margin: auto;
+  }
+
+#bold {
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#space {
+    max-width: 70%;
+    margin-top: 1%;
+   margin: auto;
+   display: block;
+}
+
 @media screen and (max-width: 820px) {
     .g-div-2,
         .g-div-3,
@@ -312,6 +368,8 @@ margin-bottom: 1em;
     .list {
         margin-top: 100%;
     }
+
+    
 }
 
 @media screen and (max-width: 1000px) {
@@ -368,6 +426,42 @@ margin-bottom: 1em;
 }
 
 @media screen and (max-width: 600px) {
+    .container {
+            flex-direction: column;
+        }
+    
+        #auto {
+            width: 80%;
+            margin: auto;
+            display: block;
+        }
+    
+        .container .container-p {
+           width: 70%;
+            font-size: .85rem;
+            text-align: center;
+            margin-bottom: 3%;
+            margin-top: 3%;
+        }
+
+        .wide {
+            font-size: 1.25rem;
+        }
+    
+        .container>* {
+            padding-bottom: 3%;
+        }
+    
+        #space {
+            font-size: .75rem;
+            text-align: center;
+        }
+    
+        #bold {
+            font-size: .75rem;
+            text-align: center;
+        }
+
     .quote-section p {
         font-size: 1rem;
         width: 80%;
